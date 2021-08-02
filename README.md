@@ -7,16 +7,13 @@ I decided to take on the challenge of this test by first taking just over a week
 ### App
 
 #### Initial State
-
-[Initial State](./src/assets/images/readme/app-initial-state.png)
+<img src="./src/assets/images/readme/app-initial-state.png" width="600" />
 
 #### Open active merchant
+<img src="./src/assets/images/readme/app-open-active-merchant.png" width="600" />
 
-[Open active merchant](./src/assets/images/readme/app-open-active-merchant.png)
-
-#### Open potential merchant)
-
-[Open potential merchant](./src/assets/images/readme/app-open-potential-merchant.png)
+#### Open potential merchant
+<img src="./src/assets/images/readme/app-open-potential-merchant.png" width="600" />
 
 ### Other considerations
 
