@@ -4,14 +4,30 @@
 
 I decided to take on the challenge of this test by first taking just over a week to learn TypeScript and Redux-Saga, as I'd never used these technologies before. I tried my best to follow best practices from the relevent documentation.
 
+### App
+
+#### Initial State
+
+[Initial State](./src/assets/images/readme/app-initial-state.png)
+
+#### Open active merchant
+
+[Open active merchant](./src/assets/images/readme/app-open-active-merchant.png)
+
+#### Open potential merchant)
+
+[Open potential merchant](./src/assets/images/readme/app-open-potential-merchant.png)
+
+### Other considerations
+
 If I had more time I would have liked to have added:
 
 1. Tests to cover my sagas. I also wrote integration tests in place of unit tests as some components only included other components in their return value. I would have separated these out and created end-to-end testing to simulate the user flow.
 2. Loading states using the gif provider.
 3. Badges next to each tab to show the number of merchants.
 
-
 ### The Task
+
 1. Create a Tabs component that allows multiple pages to be switched between.
 1. One tab should show a list of merchants with transactions that have been marked as bills. These can be found at http://localhost:3002/merchants. Merchant's marked as bills, have a flag `isBill` set to `true`.
 1. Another tab should show a list of merchants with transactions which are potential bills. These can also be found at http://localhost:3002/merchants. Merchant's that could be potentially bills have a flag `isBill` set to `false`.
@@ -22,6 +38,7 @@ If I had more time I would have liked to have added:
 1. After each action, the lists should reflect the changes.
 
 ### Notes
+
 - Please aim to spend 2-3 hours completing this task
 - We'd like to see state management tools being used
 - Tools we use at Cleo include styled-components, Typescript and Redux (with Sagas)
