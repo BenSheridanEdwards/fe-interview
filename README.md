@@ -1,9 +1,15 @@
 ## Cleo Frontend Interview - Bills
-### Get Started
-1. Fork or clone this repo (a simple [`create-react-app`](https://github.com/facebook/create-react-app) extended with [`json-server`](https://github.com/typicode/json-server) and some Cleo-specific goodies)
-1. Install dependencies via `yarn` (or `npm`)
-1. Run `yarn start` to start the dev server
-1. Run `yarn api` in a different terminal to start the json-api server
+
+### Approach
+
+I decided to take on the challenge of this test by first taking just over a week to learn TypeScript and Redux-Saga, as I'd never used these technologies before. I tried my best to follow best practices from the relevent documentation.
+
+If I had more time I would have liked to have added:
+
+1. Tests to cover my sagas. I also wrote integration tests in place of unit tests as some components only included other components in their return value. I would have separated these out and created end-to-end testing to simulate the user flow.
+2. Loading states using the gif provider.
+3. Badges next to each tab to show the number of merchants.
+
 
 ### The Task
 1. Create a Tabs component that allows multiple pages to be switched between.
